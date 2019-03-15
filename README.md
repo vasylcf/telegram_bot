@@ -1,6 +1,6 @@
 # telegram_bot
-Telegram bot, location - pythonanywhere \n
-Features: \n
-currency requests
-weather requests
+## Telegram bot, location - pythonanywhere
+## Features: 
+#### currency requests
+#### weather requests
 
