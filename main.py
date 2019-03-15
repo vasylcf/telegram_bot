@@ -110,7 +110,7 @@ def get_weather(city='Dnepropetrovsk'):
             'high temp': str(i['high'])+u'\u2103'
         }
         )
-        forecast_print.append((edit_date (i['date']),str(i['high'])+u'\u2103'))
+        forecast_print.append(str(edit_date(i['date'])) +' '+ str(round((i['high']-32)/1.8))+u'\u2103')
     return str(forecast_print)
 
 @app.route('/',methods=['POST','GET'])
